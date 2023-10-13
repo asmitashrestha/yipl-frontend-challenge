@@ -213,3 +213,40 @@
     margin-right: 80px;
     margin-top: 170px;
 }
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 90px;
+    margin-right: 70px;
+}
+
+.bag{
+    width: 357px;
+    height: 450px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.bag img{
+    padding: 20px;
+}
+
+.par-1{
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+    margin-top: 10px;
+    font-size: 17px;
+    margin-left: 15px;
+}
+.par-2{
+    color: rgb(54, 53, 53);
+    margin-top: 5px;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.learn{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
