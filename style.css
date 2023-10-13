@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#home {
+    background-image: url('img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    color: white;
+}
+
+.catalog {
+    margin-left: 7rem;
+}
+
+.header ul {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 40px;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+.header li a {
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.search-bar {
+    position: absolute;
+    left: 1000px;
+    top: 13px;
+}
+
+.search-bar input {
+    color: rgb(110, 103, 103);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    width: 300px;
+}
+
+.heading {
+    position: absolute;
+    left: 360px;
+    top: 228px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.para {
+    position: absolute;
+    left: 404px;
+    top: 310px;
+    color: white;
+    font-size: 16px;
+}
+
+.para1 {
+    position: absolute;
+    left: 490px;
+    top: 333px;
+    color: white;
+    font-size: 16px;
+}
+
+.btn {
+    position: absolute;
+    left: 570px;
+    top: 380px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 12px;
+    width: 170px;
+    color: white;
+    background-color: rgb(43, 28, 243);
+}
+
+/* for campaign page */
+#about {
+    position: relative;
+}
+
+#about h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+
+.desc1 {
+    position: absolute;
+    top: 80px;
+    left:430px;
+    font-size: 18px;
+    font-weight: 250;
+    color: rgb(124, 122, 122);
+}
+.desc2 {
+    position: absolute;
+    top: 90px;
+    left:460px;
+    font-size: 18px;
+    font-weight: 250;
+    color: rgb(124, 122, 122);
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contain {
+    position: relative;
+    height: 508px;
+    width: 352px;
+    border-radius: 5px;
+    background-color: rgb(187, 236, 236);
+}
+
+.img-para {
+    position: absolute;
+    top: 380px;
+    font-weight: 350;
+    font-size: 17px;
+    display: flex;
+    left: 20px;
+}
+
+.all-para {
+    position: absolute;
+    top: 480px;
+    left: 20px;
+    font-size: 16px;
+    color: aqua;
+}
