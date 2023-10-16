@@ -487,6 +487,76 @@
     background-repeat: no-repeat;
     height: 480px;
     max-width: 100%;
-    object-fit: cover;
-    
+    object-fit: cover; 
 }
+
+/* #footer:hover{
+    background: radial-gradient(circle at -3.3% 48%, rgb(141, 146, 239) 0%, rgb(99, 229, 254) 90%);
+} */
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 120px;
+    margin-right: 90px;
+}
+
+.right-side{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.left-side, .right-side{
+    margin-top: 130px;
+}
+.left-side h2{
+    color: rgb(24, 23, 23);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.cap{
+    font-weight: 1000;
+    font-size: 55px;
+}
+.left-side p{
+    color: rgb(238, 229, 229);
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.icons-img{
+    margin-top: 30px;
+}
+
+.icons-img i{
+    margin-right: 13px;
+    border-radius: 50%;
+    border: 1px solid rgb(230, 224, 224);
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.icons-img i:hover{
+    background-color: rgb(111, 114, 113);
+}
+
+.l-side h2, .m-side h2,.r-side h2{
+    color: rgb(24, 23, 23);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+  
+}
+
+.lpara, .mpara, .rpara{
+    margin-top: 30px;
+}
+.lpara p, .mpara p, .rpara p{
+    color: rgb(19, 1, 1);
+    margin-top: 15px;
+    text-align: justify;
+    font-weight: 200;
+}
+
+
+
