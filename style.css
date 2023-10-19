@@ -6,7 +6,7 @@
 }
 
 #home {
-    background-image: url('images.jpg');
+    background-image: url('./images/images.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -15,7 +15,7 @@
 }
 
 .header {
-    position: relative;
+    position: fixed;
     display: flex;
     color: white;
 }
@@ -482,7 +482,7 @@
 
 #footer{
     margin-top: 90px;
-    background-image: url('footer.jpg');
+    background-image: url('./images/footer.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 480px;
